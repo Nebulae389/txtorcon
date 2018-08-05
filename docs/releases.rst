@@ -23,6 +23,9 @@ unreleased
 
  * better error-reporting (include REASON and REMOTE_REASON if
    available) when circuit-builds fail (thanks David Stainton)
+ * fix parsing of Unix-sockets for SOCKS
+ * better handling of concurrent Web agent requests before SOCKS ports
+   are known
 
 
 v18.0.2
